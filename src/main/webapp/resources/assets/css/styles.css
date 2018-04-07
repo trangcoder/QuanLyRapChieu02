@@ -1,0 +1,251 @@
+.color-red {
+    color: #cd190b;
+}
+.sub-menu{
+	    padding: 10px 0;
+    color: #3e3e3e;
+    min-height: unset;
+    margin-bottom: 0;
+    background-color: #f7f7f7;
+}
+.sub-menu a {
+    color: #3e3e3e;
+    font-size: 12px;
+    font-weight: bold;
+}
+.logo{
+	text-align: center;
+}
+.section{
+	padding: 40px 0;
+}
+main{
+	background: #F7F7F7;
+	padding: 15px 0;
+}
+section.banner{
+	padding: 0;
+	background: #f9f6ec;
+}
+section.banner .carousel-control-next, .carousel-control-prev{
+	width: 4%;
+}
+section.banner .carousel-control-prev-btn{
+	display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 12px 20px 12px 7px;
+    border-radius: 0 50% 50% 0;
+}
+section.banner .carousel-control-next-btn{
+	display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 12px 7px 12px 20px;
+    border-radius: 50% 0 0 50%;
+}
+section.movies{
+    background: #F7F7F7;
+}
+.movies .card{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.movies .card-img{
+	position: relative;
+} 
+.movies .card-img .card-btn-group{
+	display: none;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 140px 15px;
+}
+.movies .card__btn{
+	color: #cdc197;
+    background-color: transparent;
+    border-color: #dad2b4;
+    border-radius: 0;
+}
+.movies .card-img:hover .card-btn-group{
+	display: block;
+	background: rgba(0, 0, 0, 0.7);
+}
+.movies .card-title{
+	font-size: 1rem;
+	margin: 0;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+.movies-tabs{
+	margin-bottom: 20px;
+	border: none;
+	text-transform: uppercase;
+}
+.movies-tabs .movies-tabs__item.show .nav-link, 
+.movies-tabs .movies-tabs__link.active{
+	background: #231f20;
+	color: #cdc197;
+}
+.movies-tabs .nav-link {
+    background: #efebdb;
+    color: #3e3e3e;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0;
+}
+section.events{
+	border-top: 1px solid #e3e1d6;
+    background: #f9f6ec url(../img/bg_pattern.png) repeat left top;
+}
+.section-heading__title{
+	background: #231f20;
+	color: #cdc197;
+	font-size: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 15px;
+	display: inline-block;
+	min-width: 165px;
+}
+.film-booking-heading__title{
+	margin-bottom: 20px;
+}
+.film-booking-item{
+	border-bottom: 1px solid #ababab;
+    margin-bottom: 10px;
+}
+.film-booking__name{
+	font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.film-booking__order{
+	font-weight: bold;
+    color: #EE1C25;
+    font-size: 1rem;
+}
+.film-booking__minute{
+	font-size: 0.8rem;
+}
+.film-booking__type{
+	margin-bottom: 0;
+}
+
+.booking-online-heading__title{
+	display: block;
+	font-size: 1.7rem;
+	text-transform: none;
+	text-align: left;
+	margin-bottom: 15px;
+}
+.booking-online__select{
+	font-size: 1rem;
+	border-radius: 0;
+}
+.booking-online__btn{
+	border-radius: 0;
+	padding-top: 1.3rem;
+	padding-bottom: 1.3rem;
+}
+.event-item{
+	margin-bottom: 40px;
+}
+.event__date{
+	margin: 10px 0;
+	display: block
+}
+.social-banner-item{
+	margin-bottom: 10px;
+}
+.social-banner-item:hover img{
+	    opacity: 0.74;
+    filter: alpha(opacity=70);
+}
+@media (min-width: 1366px) {
+	.menu{
+	margin: auto;
+	padding: 15px 0;
+}
+.main-content{
+	background: #fff;
+	padding: 15px;
+}
+h1.title{
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.event-loca-menu{
+	display: flex;
+	background-color: #dad2b4;
+}
+.event-loca-menu a{
+	padding: 10px 20px;
+    color: #3e3e3e;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.menu .nav-item{
+	    border-right: 1px solid #3e3e3e;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 0;
+}
+.menu .nav-link{
+	color: #3e3e3e;
+    text-shadow: none;
+    font-size: 16px;
+    font-weight: bold;
+        text-decoration: none;
+    text-transform: uppercase;
+}
+.menu .nav-item:last-child {
+    border-right: 0;
+}
+.other-new__item a{
+	font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    color: #3e3e3e;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+}
+.movies-cate{
+	margin-bottom: 20px;
+}
+.movies-cate-heading__title{
+	font-size: 24px;
+	padding: 10px 0;
+}
+.movies-cate-more{
+	float: right;
+	margin-top: 20px;
+	    padding-right: 18px;
+    background: url(https://lottecinemavn.com/App_Themes/lotte/img/icon_e_arrow.png) no-repeat 100% 50%;
+    color: #3e3e3e;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+.moviews-cate-body .event__date{
+	margin: 0;
+}
+.moviews-cate-body .card-title {
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3e3e3e;
+    display: block;
+}
+@media (min-width: 1366px) {
+    .modal-lg {
+        max-width:1170px
+    }
+}
